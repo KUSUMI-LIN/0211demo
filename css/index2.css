@@ -1,0 +1,320 @@
+/*小於767px*/
+@media (max-width: 767px)
+{
+	header
+	{
+		background-color: #595959;
+		padding-top: 20px;
+		
+		
+	}
+
+		#logo
+		{
+			display: block;
+			margin: 0 auto;
+			padding-bottom: 20px;
+			width: 30%
+		}
+		.navlink
+		{
+			color: #ffffff;
+			display: block;
+			margin-bottom: 50px;
+			font-size: 1.5rem;
+			text-align: center;
+
+		}
+		.navlink span
+		{
+			font-size: 1.3rem;
+			font-family: 'Tajawal', sans-serif;
+			display: block;
+		}
+
+		nav
+		{
+			background-color: rgba(0,0,0,0.7);
+			padding: 20px 0;
+			display: none;
+		}
+		.menu
+		{
+			width: 50px;
+			height: 50px;
+			background-size: cover;
+			background-repeat: no-repeat;
+			background-position: center;
+			position: fixed;
+			right: 30px;
+			top: 35px;
+		}
+		.menuopen
+		{
+			background-image: url(../image/menu.svg);
+		}
+		.menuclose
+		{
+			background-image: url(../image/close.svg);
+		}
+		main a
+		{
+			display: block;
+		}
+
+		main a img
+		{
+			margin: 10px 0;
+		}
+		main
+		{
+			position: fixed;
+			right: 30px;
+			bottom: 30px;
+		}
+}
+
+/*大於768px*/
+@media (min-width: 768px) and (max-width: 991px)
+{
+	header
+	{
+		background-color: #595959;
+		padding-top: 20px;
+		
+	}
+
+		#logo
+		{
+			display: block;
+			margin: 0 auto;
+			padding-bottom: 20px;
+			width: 25%
+		}
+		.navlink
+		{
+			color: #ffffff;
+			
+			display: block;
+			margin-bottom: 50px;
+			font-size: 1.5rem;
+			text-align: center;
+
+		}
+		.navlink span
+		{
+			font-size: 1.3rem;
+			font-family: 'Tajawal', sans-serif;
+			display: block;
+		}
+
+		nav
+		{
+			background-color: rgba(0,0,0,0.7);
+			padding: 20px 0;
+			display: none;
+		}
+		.menu
+		{
+			width: 50px;
+			height: 50px;
+			background-size: cover;
+			background-repeat: no-repeat;
+			background-position: center;
+			position: fixed;
+			right: 30px;
+			top: 50px;
+		}
+		.menuopen
+		{
+			background-image: url(../image/menu.svg);
+		}
+		.menuclose
+		{
+			background-image: url(../image/close.svg);
+		}
+		main a
+		{
+			display: block;
+		}
+
+		main a img
+		{
+			margin: 10px 0;
+		}
+		main
+		{
+			position: fixed;
+			right: 30px;
+			bottom: 30px;
+		}
+}
+
+/*大於992px*/
+@media (min-width: 992px) and (max-width: 1199px)
+{
+	header
+	{
+		background-color: #595959;
+		padding-top: 20px;
+		
+	}
+
+		#logo
+		{
+			display: block;
+			margin: 0 auto;
+			padding-bottom: 20px;
+			width: 20%
+		}
+		.navlink
+		{
+			color: #ffffff;
+			
+			display: block;
+			margin-bottom: 50px;
+			font-size: 1.5rem;
+			text-align: center;
+
+		}
+		.navlink span
+		{
+			font-size: 1.3rem;
+			font-family: 'Tajawal', sans-serif;
+			display: block;
+		}
+
+		nav
+		{
+			background-color: rgba(0,0,0,0.7);
+			padding: 20px 0;
+			display: none;
+		}
+		.menu
+		{
+			width: 50px;
+			height: 50px;
+			background-size: cover;
+			background-repeat: no-repeat;
+			background-position: center;
+			position: fixed;
+			right: 30px;
+			top: 50px;
+		}
+		.menuopen
+		{
+			background-image: url(../image/menu.svg);
+		}
+		.menuclose
+		{
+			background-image: url(../image/close.svg);
+		}
+		main a
+		{
+			display: block;
+		}
+
+		main a img
+		{
+			margin: 10px 0;
+		}
+		main
+		{
+			position: fixed;
+			right: 30px;
+			bottom: 30px;
+		}
+}
+
+
+/*大於1200px*/
+@media (min-width: 1200px)
+{
+	header
+	{
+		background-color: rgba(255, 255, 255, 0.6);
+		width: 100%;
+		height: 20vh;
+		position: fixed;
+		left: 0; /*在標籤左邊增加50像素的距離，效果跟增加左外距是一樣的*/
+		bottom: 50px;
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		box-sizing: border-box;
+		padding: 0 130px;
+		/*全部元素置中
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		*/
+	}
+
+		nav,main
+		{
+			display: inline;
+		}
+		
+
+		#logo
+		{
+			width: 9%;
+			max-width: 150px;
+		}
+
+		.navlink
+		{
+			color: #000000;
+			padding: 0 20px;
+			border-right: solid 1px #000000;
+			margin: 15% 0;
+			font-size: 2rem;
+			display: inline-block;
+			
+		}
+		.navlink span
+		{
+			font-size: 1.3rem;
+			font-family: 'Tajawal', sans-serif;
+			display: block;
+		}
+		.menu
+		{
+			display: none;
+		}
+		main a:nth-child(2) img
+		{
+			margin: 0 8px
+		}
+		
+}
+
+/*共用*/
+body
+{
+	background-image: url(../image/bg01.jpg);
+	background-position: center center;
+	background-attachment: fixed;
+	background-size: cover;
+	margin: 0;
+	font-family: 1.5rem;
+
+}
+
+html
+{
+	font-size: 12px;
+	font-family: '微軟正黑體', sans-serif;
+}
+
+main a img
+{
+	width: 30px;
+
+}
+
+a
+{
+	text-decoration: none;
+}
+

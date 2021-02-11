@@ -1,0 +1,9 @@
+$(".menu").click(function(){
+	$("nav").fadeIn();
+});
+$(".menu").click(function(){
+	$("navclose").hide();
+})
+$(".navclose").click(function(){
+	$("nav").fadeOut(500);
+})
